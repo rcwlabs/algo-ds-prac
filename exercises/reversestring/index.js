@@ -11,3 +11,19 @@ function reverse(str) {
 }
 
 module.exports = reverse;
+
+
+// function reverse(str) {
+//     return str.split('').reduce((rev, x) => x + rev, '');
+// }
+
+
+
+// function reverse(str) {
+//     let revStr = '';
+
+//     for (let x of str) {
+//         revStr = x + revStr;
+//     }
+//     return revStr;
+// }
